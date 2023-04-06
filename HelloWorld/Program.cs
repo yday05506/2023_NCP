@@ -11,6 +11,10 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("안녕 세상아");
+            char a = 'a';
+            Console.WriteLine(a);   // 와 자동완성...
+            string b = "b";
+            Console.WriteLine(b);   // 와... 자동완성...
         }
     }
 }
