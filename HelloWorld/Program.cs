@@ -15,6 +15,8 @@ namespace HelloWorld
             Console.WriteLine(a);   // 와 자동완성...
             string b = "b";
             Console.WriteLine(b);   // 와... 자동완성...
+
+            foreach(var arg in args) Console.WriteLine(arg);
         }
     }
 }
