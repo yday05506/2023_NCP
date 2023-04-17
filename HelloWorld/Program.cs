@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace HelloWorld
@@ -21,8 +22,10 @@ namespace HelloWorld
 
             // API 연습
             Console.Write("메서드 호출");
+            Thread.Sleep(1000);
             Console.SetCursorPosition(5, 5);
             Console.Write("메서드 호출2");
+            Thread.Sleep(2000);
             Console.SetCursorPosition(2, 2);
             Console.Write("메서드 호출3");
             // Console.SetCursorPosition(5, 5);
